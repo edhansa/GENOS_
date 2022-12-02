@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" HTTP-EQUIV="Refresh" CONTENT=""/>
+        <title>Genos</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="media/favicon.png">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="fond1">
+            <div class="container">
+                <div class="box1"><a href="index.html">GËNOS</a></div>
+            </div>
+        <div id="carte" class="carte">
+            <div class="tete_carte">
+                <img class="img" src="media/5219070.jpg"/>
+            </div>
+            <div class="bas_carte" id="bas_carte">
+                <p id="id_question">Si elle te propose un rapport non protégé ?</p>
+                <div id=disparait>
+                    <div onclick="mauvais1()" id='reponse1' class="reponse"><label>J'accepte le plaisir avant tout</label></div>
+                    <div onclick="bon()" id='bon' class="reponse"><label> Je reste prudent et je décline</label></div>
+                    <div onclick="mauvais2()" id='reponse2' class="reponse"><label> Si elle voit l'engin et prend peur</label></div> 
+                    <div onclick="mauvais3()" id='reponse3' class="reponse"><label> Je lave un ancien préservatif utilisé et le réutilise</label></div>
+                </div>   
+             </div>
+        </div>
+        <div class="info" id="info">
+            <img class="img-pti" src="media/genos.png"/>
+            <p class="sms" id="sms">
+            </br>
+            <b>Contexte:</b><br>
+            Tu reviens d'un endroit festif avec une fille, il est 3h elle consent à un rapport avec toi 
+                cependant tu constates que tes préservatifs sont finis
+            </p>
+        </div>
+        <div class="badge">
+            <p class="level" id="level">Question <label id="question">1</label>/2</p>
+        </div>
+        <div id="nv" class="niveau">
+            <p>Niveau</p> <label id="niveau">1</label>
+        </div>
+        <p id="next"><a href="#" onclick="suivant()"><img src="media/next.png"></a></p>
+        <div class="score">Score : <label id="score"> 0</label>
+    </div>
+
+    </body>
+
+</html>

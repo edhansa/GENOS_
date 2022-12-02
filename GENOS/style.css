@@ -1,0 +1,398 @@
+body
+{
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: 0px;
+background: url("media/fond.png");
+background-size: cover;
+    overflow: hidden;
+}
+
+.fond1
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background: url("media/2002.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height:1000px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+ 
+}
+
+.fond2
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background: url("media/labo.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height:1000px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+ 
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150px;
+    margin-top: 15%;
+    text-align: center;
+    animation: logoanim 2s ease 0s infinite normal forwards;
+    color: rgb(205, 92, 92);
+    
+}
+
+@keyframes logoanim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+.container{
+width: 100%;
+height: 70px ;
+background-color: rgb(192, 115, 128);
+border-top: solid 3px;
+border-bottom: solid 3px;
+overflow: hidden;
+}
+
+.box1{
+  margin-left: 10px;
+  width: 100%;
+  height: 70px ;
+  display: flex ;
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+
+}
+
+.container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.box{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  
+}
+
+.box2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+
+
+}
+
+.button{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  padding: 6px;
+  background-color:  pink;
+  border: 3px solid;
+}
+
+.button2{
+  padding: 6px;
+  background-color: transparent;
+  border: 3px solid;
+  width: 100%;
+  height: 800px;
+}
+
+.button:hover {
+  background-color: white;
+  transition: 0.7s;
+}
+
+.tete_carte{
+  width: auto;
+  height:345px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.bas_carte{
+  width: auto;
+  text-align:center;
+  height:247px;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(226,28,72,1) 2%, rgba(108,24,92,1) 100%);
+  color: #fff;
+  margin: 1px;
+  font-size: 15px;
+  padding: 3px;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img{
+  height: 100%;
+}
+
+.carte{
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  border-radius: 10px;
+  margin: 5px;
+  border: 1px solid rgb(83, 83, 83);
+  box-shadow: 8px 3px 3px rgba(151, 150, 150, 0.333);
+  width: 350px;
+  height: 600px;
+  background-color: rgba(144, 135, 135, 0.849);
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: white;
+}
+
+.info{
+ position: absolute;
+ left: 15%;
+ top: 27%;
+ padding-top:25px;
+ margin-left: 15px;
+ margin-right: 15px;
+  background: url("media/phone.png");
+  background-size: 100%;
+  width: 270px;
+  max-height:500px ;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  animation: vibre 2s ease 0s 1 normal forwards;
+}
+
+@keyframes vibre {
+	0% {
+		transform: translate(0);
+	}
+
+	10% {
+		transform: translate(-2px, -2px);
+	}
+
+	20% {
+		transform: translate(2px, -2px);
+	}
+
+	30% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(2px, 2px);
+	}
+
+	50% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, -2px);
+	}
+
+	70% {
+		transform: translate(-2px, 2px);
+	}
+
+	80% {
+		transform: translate(-2px, -2px);
+	}
+
+	90% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+.sms{
+  width: 100px;
+  text-align: center;
+  padding-left: 30px;
+  padding-top:160px;
+  width:200px;
+  color: #000;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#carte{
+  animation: enter 2s ease 0s 1 normal forwards;
+}
+@keyframes enter {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.img-pti{
+  width: 90px;
+  margin-top: 90px;
+  margin-bottom: -150px;
+}
+
+.badge{
+    position: absolute;
+    right: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: -5%;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.niveau{
+  position: absolute;
+  right: 45%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  top: -5%;
+  font-size: 50px;
+  color: #000;
+  font-weight: bold;
+  padding: 8px;
+  text-align: center;
+  animation: Arrive 2s ease 0s 1 normal forwards;
+}
+
+@keyframes Arrive {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+#niveau{
+  margin-top: -5px;
+  color:rgb(11, 19, 5);
+  font-size: 80px;
+}
+
+.score{
+  position: absolute;
+  right: 22%;
+  top: 40%;
+  color: #fff;
+  box-shadow: 8px rgb(255, 118, 168);
+  font-size: 50px;
+}
+
+.reponse{
+  border: 1px solid #fff;
+  border-radius: 6px;
+  height:25px;
+  margin: 5px;
+}
+
+#next{
+  /*margin-top: -80px;*/
+  position: absolute;
+  right: 46.5%;
+  top: 10%;
+  visibility: hidden;
+  animation: next 1s ease 0s infinite normal forwards;
+}
+@keyframes next {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
